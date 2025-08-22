@@ -1,0 +1,18 @@
+p {
+    font-family: 'Jura';
+    font-size: medium;
+}
+
+#titulo-principal {
+    text-align: center;
+    color: darkorange;
+}
+
+.subtitulo {
+    color: purple;
+    font-weight: bold;
+}
+
+ul a {
+    text-decoration: none;
+}

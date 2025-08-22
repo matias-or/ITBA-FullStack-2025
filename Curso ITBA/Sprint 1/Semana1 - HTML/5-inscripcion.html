@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción</title>
+</head>
+<body>
+    <form action="">
+    </form>
+        <div>
+            <label for="nombreUsuario">Nombre:</label>
+            <input type="text" id="nombreUsuario" name="nombre" required>
+        </div>
+        <div>
+            <label for="emailUsuario">Email:</label>
+            <input type="email" name="email" id="emailUsuario" required>
+        </div>
+        <div>
+            <label for="PasswordUsuario">Contraseña:</label>
+            <input type="password" name="password" id="PasswordUsuario" required>
+        </div>
+        <div>
+            <label for="talleres">Seleccionar un taller</label>
+            <select name="talleres" id="talleres">
+                <option value="informática">Informática</option>
+                <option value="mecánica">Mecánica</option>
+                <option value="químita">Química</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="tipoAsistencia" id="asistenciaP">
+            <label for="asistenciaP">Presencial</label>
+            <br>
+            <input type="radio" name="tipoAsistencia" id="asistenciaV">
+            <label for="asistenciaV">Virtual</label>
+        </div>
+        <div>
+            <input type="checkbox" name="aceptarTermCond" id="terminosYcondiciones">
+            <label for="terminosYcondiciones">Acepto los términos y condiciones</label>
+        </div>
+        <div>
+            <label for="comentarios">Comentarios adicionales:</label> <br>
+            <textarea name="comentarios" id="comentarios" rows="5"></textarea>
+        </div>
+        <button type="submit">Inscribirme</button>
+    </form>
+</body>
+</html>
