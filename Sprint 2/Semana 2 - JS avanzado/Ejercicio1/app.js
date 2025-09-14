@@ -9,6 +9,12 @@ const catalogoMuebles = [{
     nombre: "Mesa",
     precio: 250,
     img: "https://www.google.com/imgres?q=mesa&imgurl=https%3A%2F%2Fmueblesalgarrobo.com.ar%2Fwp-content%2Fuploads%2F2023%2F10%2FMesa-Redonda-de-Algarrobo.jpg&imgrefurl=https%3A%2F%2Fmueblesalgarrobo.com.ar%2Fmesas%2Fmesa-redonda-nordica%2F&docid=-X4ku5KfwW6PNM&tbnid=g-h7xShXtVtkIM&vet=12ahUKEwiA4-Da49CPAxX9HLkGHdDdIMgQM3oECE8QAA..i&w=700&h=700&hcb=2&ved=2ahUKEwiA4-Da49CPAxX9HLkGHdDdIMgQM3oECE8QAA"
+},
+{
+    id: 3,
+    nombre: "Silla",
+    precio: 100,
+    img: "https://www.google.com/imgres?q=silla&imgurl=https%3A%2F%2Fsmart-office.com.ar%2Fwp-content%2Fuploads%2F2018%2F08%2FPOP-001.jpg&imgrefurl=https%3A%2F%2Fsmart-office.com.ar%2Fproducto%2Fpop%2F%3Fsrsltid%3DAfmBOoo9UrXH-Qe_Bfxip7RkCKQiYNeK2yineSpZjmJ5r8D7vfzcjdY2&docid=HMYoaEODEn5kUM&tbnid=pKtnIt2iEykMAM&vet=12ahUKEwjF5IPM5tCPAxVUGrkGHVMVGdQQM3oECEgQAA..i&w=640&h=480&hcb=2&ved=2ahUKEwjF5IPM5tCPAxVUGrkGHVMVGdQQM3oECEgQAA"
 }];
 
 const productContainer = document.querySelector('#product-container');
