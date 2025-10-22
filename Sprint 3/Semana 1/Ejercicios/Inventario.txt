@@ -1,0 +1,4 @@
+mesa - 10 unidades
+silla - 15 unidades
+escritorio - 3 unidades
+estante - 0 unidades
